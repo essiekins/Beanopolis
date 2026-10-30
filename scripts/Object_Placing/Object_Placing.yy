@@ -1,0 +1,13 @@
+{
+  "$GMScript":"v1",
+  "%Name":"Object_Placing",
+  "isCompatibility":false,
+  "isDnD":false,
+  "name":"Object_Placing",
+  "parent":{
+    "name":"Scripts",
+    "path":"folders/Scripts.yy",
+  },
+  "resourceType":"GMScript",
+  "resourceVersion":"2.0",
+}
