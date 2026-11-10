@@ -7,7 +7,7 @@
 global.Recreation = 0; //fun
 global.Purpose = 0; //employment
 global.Health = 0; //Health
-global.Happiness = 0; //Current happiness
+global.Happiness= 0; //Current happiness
 global.maxHappiness = 100; //Start Happiness
 global.Beans = 0; //starting beans
 
@@ -18,11 +18,9 @@ or said Object requires in order to function */
 //====HOME====
 
 function O_Home(){
-	//If home is placed, run values
 	global.Beans +=2; //+Beans default home pop
 	global.Purpose -=2; // demands per bean
 	global.Recreation -=2; //demands per bean
-	global.Happiness +=1; //adds to happiness 
 }
 //====PARK====
 function O_Park(){
@@ -32,23 +30,23 @@ function O_Park(){
 //====HOSPITAL====
 function O_Hospital(){
 	global.Health += 16; // 16 patients
-	global.Purpose += 8; //8 available jobs
+	global.Purpose += 6; //8 available jobs
 }
 
 //Happiness is the sum of Recreation,Purpose and Health
 function Happiness(){
-	global.Happiness = global.Recreation + global.Purpose + global.Health;
+	global.Happiness = (global.Recreation + global.Purpose + global.Health)/global.maxHealth;
+	
 	
 	//if game started, use tile values show me the logic is active
-	if (ev_game_start == true && instance_exists(O_Home) && instance_exists(O_Hospital)
-	&& instance_exists(O_Park)){
-	O_Home();
-	O_Park();
-	O_Hospital();
-	
+	if (ev_game_start){
+		global.happiness = global.maxHappiness - global.Happiness;
+	 
 	show_debug_message("ding ding ding!");
 	}
 }
+
+
 
 
 

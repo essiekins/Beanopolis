@@ -1,15 +1,13 @@
 {
   "$GMObject":"",
-  "%Name":"O_TestHappiness",
-  "eventList":[
-    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":0,"eventType":8,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
-  ],
+  "%Name":"Buildable_Container",
+  "eventList":[],
   "managed":true,
-  "name":"O_TestHappiness",
+  "name":"Buildable_Container",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects_Tiles",
-    "path":"folders/Objects_Tiles.yy",
+    "name":"Sprites_Tiles",
+    "path":"folders/Sprites_Tiles.yy",
   },
   "parentObjectId":null,
   "persistent":false,
