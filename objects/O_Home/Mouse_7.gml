@@ -18,3 +18,4 @@ if (!is_placed){
 	global.Purpose -=2; // demands per bean
 	global.Recreation -=2; //demands per bean
 	global.Happiness -=2;
+	global.Health -=2;

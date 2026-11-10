@@ -12,7 +12,6 @@ if (!is_placed){
 	else{
         instance_destroy()
     }
-	if (!is_placed == true){
-		global.Recreation +=20; //Beans capacity
-	}
+	//add this value when placed
+	global.Recreation +=20; //Beans capacity
 }
