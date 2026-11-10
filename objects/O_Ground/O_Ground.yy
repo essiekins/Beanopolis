@@ -1,7 +1,9 @@
 {
   "$GMObject":"",
   "%Name":"O_Ground",
-  "eventList":[],
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":{"name":"O_Home","path":"objects/O_Home/O_Home.yy",},"eventNum":0,"eventType":4,"isDnD":true,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
   "name":"O_Ground",
   "overriddenProperties":[],

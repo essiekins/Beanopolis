@@ -11,3 +11,19 @@
 /// @DnDArgument : "mincol" "$FF4C4CFF"
 /// @DnDArgument : "maxcol" "$FF59B259"
 draw_healthbar(100, 50, 300, 20, global.Happiness/global.maxHappiness*100, $FF264360 & $FFFFFF, $FF4C4CFF & $FFFFFF, $FF59B259 & $FFFFFF, 0, (($FF264360>>24) != 0), (($FF24FF19>>24) != 0));
+
+/// @DnDAction : YoYo Games.Common.Execute_Code
+/// @DnDVersion : 1
+/// @DnDHash : 44ACC097
+/// @DnDArgument : "code" "/// @description Execute Code$(13_10)global.maxHappiness = 100;"
+/// @description Execute Code
+global.maxHappiness = 100;
+
+/// @DnDAction : YoYo Games.Drawing.Draw_Value_Transformed
+/// @DnDVersion : 1
+/// @DnDHash : 006C2DB2
+/// @DnDArgument : "x" "30"
+/// @DnDArgument : "y" "220"
+/// @DnDArgument : "caption" ""Happiness: ""
+/// @DnDArgument : "text" "global.Purpose + global.Health + global.Recreation/global.maxHappiness*100"
+draw_text_transformed(30, 220, string("Happiness: ") + string(global.Purpose + global.Health + global.Recreation/global.maxHappiness*100), 1, 1, 0);

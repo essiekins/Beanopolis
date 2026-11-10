@@ -1,13 +1,15 @@
 {
   "$GMObject":"",
-  "%Name":"Test_Negative",
-  "eventList":[],
+  "%Name":"O_Hospial_Icon",
+  "eventList":[
+    {"$GMEvent":"v1","%Name":"","collisionObjectId":null,"eventNum":4,"eventType":6,"isDnD":false,"name":"","resourceType":"GMEvent","resourceVersion":"2.0",},
+  ],
   "managed":true,
-  "name":"Test_Negative",
+  "name":"O_Hospial_Icon",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects_Tiles",
-    "path":"folders/Objects_Tiles.yy",
+    "name":"Objects_Sidebar_Buttons",
+    "path":"folders/Objects_Sidebar_Buttons.yy",
   },
   "parentObjectId":null,
   "persistent":false,
@@ -27,7 +29,10 @@
   "resourceType":"GMObject",
   "resourceVersion":"2.0",
   "solid":false,
-  "spriteId":null,
+  "spriteId":{
+    "name":"S_Hospital_Img",
+    "path":"sprites/S_Hospital_Img/S_Hospital_Img.yy",
+  },
   "spriteMaskId":null,
   "visible":true,
 }
