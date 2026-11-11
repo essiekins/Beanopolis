@@ -39,11 +39,13 @@ function Happiness(){
 	
 	
 	//if game started, use tile values show me the logic is active
+	/*
 	if (ev_game_start){
 		global.happiness = global.maxHappiness - global.Happiness;
 	 
 	show_debug_message("ding ding ding!");
 	}
+	*/
 }
 
 

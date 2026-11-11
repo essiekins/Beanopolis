@@ -30,8 +30,8 @@
   "resourceVersion":"2.0",
   "solid":false,
   "spriteId":{
-    "name":"S_Hospital_Img",
-    "path":"sprites/S_Hospital_Img/S_Hospital_Img.yy",
+    "name":"S_Hospital_Icon",
+    "path":"sprites/S_Hospital_Icon/S_Hospital_Icon.yy",
   },
   "spriteMaskId":null,
   "visible":true,

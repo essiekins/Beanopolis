@@ -15,15 +15,16 @@ draw_healthbar(100, 50, 300, 20, global.Happiness/global.maxHappiness*100, $FF26
 /// @DnDAction : YoYo Games.Common.Execute_Code
 /// @DnDVersion : 1
 /// @DnDHash : 44ACC097
-/// @DnDArgument : "code" "/// @description Execute Code$(13_10)global.maxHappiness = 100;"
+/// @DnDArgument : "code" "/// @description Execute Code$(13_10)global.maxHappiness = 100;$(13_10)//global.happiness = global.maxHappiness - global.Happiness;$(13_10)"
 /// @description Execute Code
 global.maxHappiness = 100;
+//global.happiness = global.maxHappiness - global.Happiness;
 
 /// @DnDAction : YoYo Games.Drawing.Draw_Value_Transformed
 /// @DnDVersion : 1
 /// @DnDHash : 006C2DB2
 /// @DnDArgument : "x" "30"
-/// @DnDArgument : "y" "220"
+/// @DnDArgument : "y" "150"
 /// @DnDArgument : "caption" ""Happiness: ""
 /// @DnDArgument : "text" "global.Purpose + global.Health + global.Recreation/global.maxHappiness*100"
-draw_text_transformed(30, 220, string("Happiness: ") + string(global.Purpose + global.Health + global.Recreation/global.maxHappiness*100), 1, 1, 0);
+draw_text_transformed(30, 150, string("Happiness: ") + string(global.Purpose + global.Health + global.Recreation/global.maxHappiness*100), 1, 1, 0);

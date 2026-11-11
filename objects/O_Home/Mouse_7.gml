@@ -19,3 +19,5 @@ if (!is_placed){
 	global.Recreation -=2; //demands per bean
 	global.Happiness -=2;
 	global.Health -=2;
+	
+	//if(is_placed)
