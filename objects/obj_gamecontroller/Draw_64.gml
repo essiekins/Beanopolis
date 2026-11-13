@@ -231,6 +231,7 @@ if (lobby_built)
 }
 
 /// STARTING MESSAGE
+/*
 if (show_lobby_message)
 {
     draw_set_halign(fa_center);
@@ -248,6 +249,7 @@ if (show_lobby_message)
         0
     );
 }
+*/
 
 /// RESET DRAW SETTINGS
 draw_set_alpha(1);

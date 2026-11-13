@@ -1,5 +1,5 @@
 /// GAME SETTINGS
-money = 500;
+money = 1500;
 
 build_mode = "none";
 preview_sprite = -1;
@@ -35,11 +35,11 @@ message_fade = -0.02;
 visitor_spawn_timer = 0;
 visitor_spawn_interval = 8;
 visitor_payment = 50;
+
 /// VISITOR SETTINGS
 visitor_spawn_timer = 0;
 visitor_spawn_interval = 8; // Seconds between visitors
 visitor_payment = 50;
-
 
 // Hallway building settings
 hallway_cost = 25;
@@ -51,3 +51,5 @@ current_build_floor = 0;
 floor_height = 128;
 
 occupied = false;
+
+show_debug_message("UICycle runnning")

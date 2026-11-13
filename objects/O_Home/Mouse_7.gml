@@ -17,7 +17,7 @@ if (!is_placed){
 	global.Beans +=2; //+Beans default home pop
 	global.Purpose -=2; // demands per bean
 	global.Recreation -=2; //demands per bean
-	global.Happiness -=2;
-	global.Health -=2;
+	global.Health -=2;// needs 1 hospital bed per bean
 	
-	//if(is_placed)
+	
+	

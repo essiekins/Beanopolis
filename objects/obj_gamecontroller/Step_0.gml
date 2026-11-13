@@ -22,6 +22,7 @@ if (build_mode != "none" &&
     );
 }
 
+
 /// ROOM PLACEMENT GUIDE LINES
 if (build_mode_active && preview_sprite != -1)
 {
@@ -99,6 +100,20 @@ var hours = floor(game_minutes / 60);
 var minutes = game_minutes mod 60;
 
 var clock_text = string(hours) + ":";
+
+//DEBUG TIME
+if (minutes <= 0){
+	hours -= 1;
+	minutes = 60;
+}
+
+if (minutes >= 0){
+	minutes -= 1;
+}
+
+
+show_debug_message(string(hours) + "" + string(minutes));
+
 
 if (minutes < 10)
 {

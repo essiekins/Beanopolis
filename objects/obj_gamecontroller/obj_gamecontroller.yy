@@ -10,8 +10,8 @@
   "name":"obj_gamecontroller",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects_Tiles",
-    "path":"folders/Objects_Tiles.yy",
+    "name":"Objects_UI",
+    "path":"folders/Objects_UI.yy",
   },
   "parentObjectId":null,
   "persistent":false,

@@ -8,8 +8,8 @@
   "name":"O_Park_Icon",
   "overriddenProperties":[],
   "parent":{
-    "name":"Objects_Sidebar_Buttons",
-    "path":"folders/Objects_Sidebar_Buttons.yy",
+    "name":"Objects_UI",
+    "path":"folders/Objects_UI.yy",
   },
   "parentObjectId":null,
   "persistent":false,
