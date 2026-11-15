@@ -1,0 +1,19 @@
+{
+  "FolderOrderSettings":[],
+  "ResourceOrderSettings":[
+    {"name":"obj_building_room","order":10,"path":"objects/obj_building_room/obj_building_room.yy",},
+    {"name":"obj_game_controller","order":9,"path":"objects/obj_game_controller/obj_game_controller.yy",},
+    {"name":"obj_hallway","order":16,"path":"objects/obj_hallway/obj_hallway.yy",},
+    {"name":"obj_lobby","order":12,"path":"objects/obj_lobby/obj_lobby.yy",},
+    {"name":"obj_stairs","order":13,"path":"objects/obj_stairs/obj_stairs.yy",},
+    {"name":"obj_visitor","order":11,"path":"objects/obj_visitor/obj_visitor.yy",},
+    {"name":"female_bean","order":4,"path":"sprites/female_bean/female_bean.yy",},
+    {"name":"male_bean","order":3,"path":"sprites/male_bean/male_bean.yy",},
+    {"name":"spr_building_room","order":2,"path":"sprites/spr_building_room/spr_building_room.yy",},
+    {"name":"spr_grass","order":1,"path":"sprites/spr_grass/spr_grass.yy",},
+    {"name":"spr_hallway","order":15,"path":"sprites/spr_hallway/spr_hallway.yy",},
+    {"name":"spr_lobbyroom","order":8,"path":"sprites/spr_lobbyroom/spr_lobbyroom.yy",},
+    {"name":"spr_rain","order":14,"path":"sprites/spr_rain/spr_rain.yy",},
+    {"name":"spr_stairs","order":7,"path":"sprites/spr_stairs/spr_stairs.yy",},
+  ],
+}
