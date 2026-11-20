@@ -9,8 +9,8 @@
   "name":"O_Slot",
   "overriddenProperties":[],
   "parent":{
-    "name":"Beantopia (Esther's game)",
-    "path":"Beantopia (Esther's game).yyp",
+    "name":"Beantopia (Latest Build)",
+    "path":"Beantopia (Latest Build).yyp",
   },
   "parentObjectId":null,
   "persistent":false,

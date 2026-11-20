@@ -8,7 +8,7 @@ global.maxHappiness = 100;
 
 //==== ALL VALUES TEXT DISPLAY ====
 draw_text_transformed(150, 70, string("Happiness: ") + string
-(global.Purpose + global.Health + global.Recreation/global.maxHappiness*100), 1, 1, 0);
+(global.Happiness), 1, 1, 0);
 
 draw_text_transformed(30, 100, string("Beans: ") + string
 (global.Beans), 1, 1, 0);
