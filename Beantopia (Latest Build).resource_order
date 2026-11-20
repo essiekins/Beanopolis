@@ -1,0 +1,9 @@
+{
+  "FolderOrderSettings":[],
+  "ResourceOrderSettings":[
+    {"name":"game_over_font","order":1,"path":"fonts/game_over_font/game_over_font.yy",},
+    {"name":"O_game_over_text","order":2,"path":"objects/O_game_over_text/O_game_over_text.yy",},
+    {"name":"O_game_over","order":1,"path":"objects/O_game_over/O_game_over.yy",},
+    {"name":"Room2","order":1,"path":"rooms/Room2/Room2.yy",},
+  ],
+}

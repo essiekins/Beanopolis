@@ -25,8 +25,8 @@
   "nineSlice":null,
   "origin":0,
   "parent":{
-    "name":"Beantopia (Esther's game)",
-    "path":"Beantopia (Esther's game).yyp",
+    "name":"Beantopia (Latest Build)",
+    "path":"Beantopia (Latest Build).yyp",
   },
   "preMultiplyAlpha":false,
   "resourceType":"GMSprite",
